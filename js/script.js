@@ -1,5 +1,5 @@
 // Getting the date today.
-var todayDate = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+var todayDate = moment().format('MMMM Do YYYY, h:mm:ss a');
 $("#currentDay").html(todayDate);
 
 // Reminder Referrence: https://learn.jquery.com/using-jquery-core/document-ready/
@@ -18,6 +18,7 @@ $(window).on("load", function(){
     // console.log($(this).parent());
   })
 
+  // Load first.
   function trackSchedule(){
     // Get the time now.
     var currentTime = moment().hour();
