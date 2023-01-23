@@ -36,10 +36,13 @@
         <div class="col-md-1 hour">
           8AM
         </div>
-        <textarea class="col-md-10 description"></textarea>
+        <textarea id="sortable" class="col-md-10 description"></textarea>
         <button class="saveBtn col-md-1">
           <!-- Since fontawesome is installed. I insert save icon -->
           <i class="fa-solid fa-floppy-disk"></i>
+          <!-- Delete Icon 
+          <i id="deleteIcon" class="fa-solid fa-trash"></i>
+          -->
         </button>
       </div>
 
@@ -72,7 +75,10 @@
         <textarea class="col-md-10 description"></textarea>
         <button class="saveBtn col-md-1">
           <!-- Since fontawesome is installed. I insert save icon -->
-          <i class="fa-solid fa-floppy-disk"></i>
+          <i id="saveIcon" class="fa-solid fa-floppy-disk"></i>
+          <!-- Delete Icon 
+          <i id="deleteIcon" class="fa-solid fa-trash"></i>
+          -->
         </button>
       </div>
 
@@ -174,11 +180,8 @@
           <i class="fa-solid fa-floppy-disk"></i>
         </button>
       </div>
-
     </div>
 
-    
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
@@ -186,6 +189,10 @@
 
     <!-- I added my own fontawesome -->
     <script src="https://kit.fontawesome.com/91a6782aab.js" crossorigin="anonymous"></script>
+
+    <!-- I added my own fontawesome 
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    -->
 
     <!-- My script tag -->
     <script src="./js/script.js"></script>
